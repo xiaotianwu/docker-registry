@@ -40,6 +40,3 @@ ENV DOCKER_REGISTRY_CONFIG /docker-registry/config/config_sample.yml
 ENV SETTINGS_FLAVOR dev
 
 EXPOSE 5000
-
-CMD ["docker-registry"]
-
